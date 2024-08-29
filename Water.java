@@ -1,4 +1,4 @@
-public class ContainerWithMostWater {
+public class Water {
     public int maxArea(int[] height) {
         int left = 0;
         int right = height.length - 1;
@@ -17,7 +17,7 @@ public class ContainerWithMostWater {
         return maxArea;
     }
     public static void main(String[] args) {
-        ContainerWithMostWater container = new ContainerWithMostWater();
+        Water container = new Water();
         int[] height1 = {1, 8, 6, 2, 5, 4, 8, 3, 7};
         System.out.println("Maximum water container area: " + container.maxArea(height1));
         int[] height2 = {1, 1};
